@@ -6,9 +6,8 @@ const VideoList = () => {
   return (
     <div
       style={{
-        display: "flex",
-        flexWrap: "wrap",
-        justifyContent: "center",
+        display: "grid",
+        gridTemplateColumns: "repeat(auto-fill, minmax(300px, 1fr))",
         gap: "20px",
         padding: "20px",
       }}
@@ -20,10 +19,11 @@ const VideoList = () => {
           title={video.title}
           creator={video.creator}
           views={video.views}
+          channelProfilePic={video.channelProfilePic}
         />
       ))}
     </div>
   );
 };
 
-export default videoList;
+export default VideoList;
