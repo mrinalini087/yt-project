@@ -51,13 +51,13 @@ This project is a React application built with Vite that creates a video gallery
 1. Clone the repository:
 
    ```bash
-   git clone [your-repository-url]
+   git clone https://github.com/mrinalini087/yt-project
    ```
 
 2. Navigate to the project directory:
 
    ```bash
-   cd [yt-project]
+   cd yt-project
    ```
 
 3. Install dependencies:
